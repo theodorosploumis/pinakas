@@ -124,30 +124,29 @@
 ### JSON of a Card
 
   ```JSON
-  citizen_requests: {
-    "type": "list_integer",
-    "status": 1,
-    "frequency": {
-      "1",
-      "15",
-      "30",
-      ...
-    },
-    "owner": 123,
-    "uuid": "56771d54-10d8-4516-90c2-1efe796550f7",
-    "created": 11232433214,
-    "changed": 11232433214, 
-    "area": "Thessaloniki, Greece",
-    "taxonomy": {
-      "gov",
-      "thessaloniki"
-    },
-    "data": {
-      "εφορία": 23,
-      "κεπ": 3,
-      "λεωφορεία": 2
-    }
+{
+  "type": "list_integer",
+  "status": 1,
+  "frequency": [
+    1,
+    15,
+    30
+  ],
+  "owner": 123,
+  "uuid": "56771d54-10d8-4516-90c2-1efe796550f7",
+  "created": 11232433214,
+  "changed": 11232433214,
+  "area": "Thessaloniki, Greece",
+  "taxonomy": [
+    "gov",
+    "thessaloniki"
+  ],
+  "data": {
+    "εφορία": 23,
+    "κεπ": 3,
+    "λεωφορεία": 2
   }
+}
   ```
 
 ### Indicators examples
